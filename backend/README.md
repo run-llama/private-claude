@@ -9,13 +9,7 @@ poetry install
 poetry shell
 ```
 
-By default, we use the OpenAI LLM (though you can customize, see `app/context.py`). As a result you need to specify an `OPENAI_API_KEY` in an .env file in this directory.
-
-Example `.env` file:
-
-```
-OPENAI_API_KEY=<openai_api_key>
-```
+For configuration, edit the `.env` file in this folder. It is used to store configuration parameters for the used LLM and embedding model.
 
 Second, generate the embeddings of the documents in the `./data` directory (if this folder exists - otherwise, skip this step):
 

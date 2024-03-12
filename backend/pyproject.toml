@@ -11,6 +11,7 @@ python = "^3.11,<3.12"
 fastapi = "^0.109.1"
 python-dotenv = "^1.0.0"
 llama-index = "^0.10.7"
+llama-index-embeddings-huggingface = "^0.1.4"
 
 [tool.poetry.dependencies.uvicorn]
 extras = [ "standard" ]
